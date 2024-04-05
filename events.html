@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="/assets/wisa-logo-text-trans.png">
+    <title>Wellington International Students' Association</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font Link for Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://kit.fontawesome.com/10f9b17392.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+      </label>
+      <a href="index.html"><img class="logo" src="https://wisa-assets.s3.us-east-2.amazonaws.com/wisa-logo-text.png" alt="WISA Logo"></a>
+      <ul>
+          <li><a href="abous-us.html">About us</a></li>
+          <li><a class="active" href="events.html">Events</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="news.html">News</a></li>
+      </ul>
+    </nav>
+
+    <div class="banner">
+        <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2020/quiz-night-2020.jpg" id="image" onload="loadImage()" alt="Quiz Night"/>
+    </div>
+
+    <div class="upcoming-events var-2 row">
+        <h2>Upcoming events</h2>
+        <div class="description">
+            <!-- Poster -->
+            <!-- Replace src link with updated AWS link -->
+            <!-- <div class="img"> 
+                <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2023/bowling-2023-poster.png" id="image" onload="loadImage()" alt="WISA Executive team 2022"/>
+            </div>
+
+            <div class="paragraph">
+                <div class="text">
+                    <h2>Bowling Night</h2>
+                    <p>LET'S GO BOWLING 🎳 ALL WELCOME
+                        It's our first event for the year and we would love for you to come bowling with us! Make new friends, 
+                        show off your amazing skills and have heaps of fun! Whether you're an international student or domestic student, come along!
+                        We have limited spaces so register ASAP through the link in Bio. We are so excited to see some new faces :)    
+                        Feel free to message us for any questions you may have 🤍</p><br>
+                    <p><i class="fa-solid fa-calendar"></i>&nbsp&nbsp June 24th (Saturday)</p>
+                    <p><i class="fa-solid fa-clock"></i>&nbsp&nbsp 3:30 PM</p>
+                    <p><i class="fa-solid fa-location-dot"></i>&nbsp&nbsp&nbsp The Lanes, 234/238 Wakefield Street, Te Aro</p><br>
+                    <button class="btn var-1"><a href="https://forms.gle/tkp2AYRu1pcF7uqk9" target="_blank">Sign up now</a></button>
+                </div>
+            </div> -->
+            <p>There are no upcoming events.</p>
+        </div>
+    </div>
+
+
+    <!-- 2023 Summary section -->
+    <div class="events var-1 row">
+        <div class="description">
+            <div class="img">
+                <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2023/bookfair-2023.jpg" id="image" onload="loadImage()" alt="WISA Executive team 2023"/>
+                <h5 class="img-description">The 2023 WISA team volunteering at the Ngaio Book Fair.</h5>
+            </div>
+            <div class="paragraph">
+                <h2>WISA 2023</h2>
+                <p>Wellington International Students' Association (WISA) is poised for a successful year in 2023, under the leadership of Aarnav Tonpay, a Wellington College Super Six leader. 
+                    Aarnav will be joined by a dynamic team of Year 12 and 13 students, united by their dedication in assisting and empowering new international students while fostering a vibrant atmosphere 
+                    of cultural exchange in Wellington. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="events row">
+        <h2>2023 Events</h2>
+        <div class="events-container">
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2023/unity-night-2023.jpg" id="image" onload="loadImage()" alt="Unity Night"/>
+                    <div class="description">
+                        <h3>UNITY NIGHT</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> September 2023</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> AGC Hall, Wellington College</span></div>
+                        <p>
+                            An awesome event filled with vibrance and diversity. Thanks to all our beautiful performers and everyone who came along to support!!
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2023/bowling-2023.jpg" id="image" onload="loadImage()" alt="Unity Night"/>
+                    <div class="description">
+                        <h3>BOWLING NIGHT</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> June 2023</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> The Lanes</span></div>
+                        <p>
+                            Thank you to everyone who attended bowling night! We were thrilled with the turnout and loved meeting everyone! Keep an eye out for upcoming events.
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2023/bookfair-2023.jpg" id="image" onload="loadImage()" alt="Unity Night"/>
+                    <div class="description">
+                        <h3>NGAIO BOOK FAIR</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> May 2023</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Ngaio Town Hall</span></div>
+                        <p>
+                            Aarnav, Ashley, Jolo and Bella of the WISA volunteered to help out with the pack up of thousands of books at the Blue Dragon Children’s Foundation Book Fair at Ngaio Town Hall.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="events var-1 row">
+        <div class="description">
+            <div class="img">
+                <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/exec/wisa-exec-2022.JPG" id="image" onload="loadImage()" alt="WISA Executive team 2022"/>
+                <h5 class="img-description">2022 WISA committee and volunteers at von Kohorn Room, Wellington Musuem after the Orientation day.</h5>
+            </div>
+            <div class="paragraph">
+                <h2>WISA 2022</h2>
+                <p>After the border reopened, WISA hosted an orientation day to welcome over 140 students from 14 schools and 8 countries with visits to museums and sightseeing tours. In July, WISA responded to the racial tensions that arose during the pandemic by organizing a cross-cultural 
+                    fundraiser, which featured performances by Asian and Polynesian groups. Through these initiatives, WISA has made significant strides towards achieving 
+                    its goal of promoting racial unity and facilitating cultural exchange between international students and New Zealanders.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="events row">
+        <h2>2022 Events</h2>
+        <div class="events-container">
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2022/unity-night-2022.jpg" id="image" onload="loadImage()" alt="Unity Night"/>
+                    <div class="description">
+                        <h3>Unity Night</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> August 2022</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Wellington College Memorial Hall</span></div>
+                        <p>WISA co-hosted a multicultural show to celebrate cultural diversity, featuring performances like Kapa Haka and Chinese Lion Dancing.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2022/oday-2022.jpg" id="image" onload="loadImage()" alt="Orientation Day"/>
+                    <div class="description">
+                        <h3>Orientation Day</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> July 2022</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Wellington Museum</span></div>
+                        <p>After two years of border closure, WISA welcomed over 140 students from 8 countries and 14 schools with museum and sightseeing tours.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2022/bowling-2022.png" id="image" onload="loadImage()" alt="Bowling Night"/>
+                    <div class="description">
+                        <h3>Bowling Night</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> June 2022</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> The Lanes</span></div>
+                        <p>WISA organised its second Bowling Night so students from all over the city could enjoy a fun night out with friends and compete for prizes.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2022/bookfair-2022.jpg" id="image" onload="loadImage()" alt="Book Fair"/>
+                    <div class="description">
+                        <h3>Blue Dragon Book Fair</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> May 2022</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Ngaio Town Hall</span></div>
+                        <p>The WISA committee volunteered at the Blue Dragon Book fair and helped with categorising donated books and recycling card boxes.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2022/picnic-2022.jpg" id="image" onload="loadImage()" alt="Picnic"/>
+                    <div class="description">
+                        <h3>Picnic & Lasertag</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> April 2022</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Waitangi Park</span></div>
+                        <p>We met in Waitangi Park for a shared picnic, volleyball and frisbee games, followed by arcade games and lasertag at Laserforce Wellington.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2022/runathon-2022.jpg" id="image" onload="loadImage()" alt="Runathon"/>
+                    <div class="description">
+                        <h3>Runathon Foodstall</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> April 2022</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Wellington College</span></div>
+                        <p>WISA run a food stall at Runathon, which raises funds various charities. We sold over 250 dumplings & samosas and raised $200 NZD.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="events var-1 row">
+        <div class="description">
+            <div class="img">
+                <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/exec/wisa-exec-2021.jpg" id="image" onload="loadImage()" alt="WISA Executive team 2021"/>
+                <h5 class="img-description">2021 WISA committee met up for a picnic at Waitangi Park.</h5>
+            </div>
+            <div class="paragraph">
+                <h2>WISA 2021</h2>
+                <p>WISA had a mixed year in 2021. The school year started with a Sports day at Wellington College, where the 2021 executive was selected. The new executive met 
+                    with Education NZ representatives to discuss international students' experiences and attended a validation workshop for the National Ambassador program by Wellington NZ. 
+                    WISA proceeded to organised a series of socialising events including a bowling night, a roller skating night, and a movie night. WISA finished the year by successfully
+                    launching its first merchandise line. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="events row">
+        <h2>2021 Events</h2>
+        <div class="events-container">
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2021/movie-fund-2021.jpg" id="image" onload="loadImage()" alt="Movie Fundraiser"/>
+                    <div class="description">
+                        <h3>Movie Fundraiser</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> November 2021</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Penthouse Cinema, Brooklyn</span></div>
+                        <p>We collaborated with Interact Club to raise funds for Blue Dragon Children's Foundation. 60 students joined us for the movie Shang Chi.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2021/movie-night-2021.jpeg" id="image" onload="loadImage()" alt="Movie Night"/>
+                    <div class="description">
+                        <h3>Movie Night</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> July 2021</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Wellington College</span></div>
+                        <p>Over 100 students joined us at Wellington College for the movie Weathering with You, Domino's Pizza, and cup-sized popcorn.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2021/roller-skating-2021.jpg" id="image" onload="loadImage()" alt="Roller Skating Night"/>
+                    <div class="description">
+                        <h3>Roller Skating Night</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> June 2021</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Kilbirnie Recreation Centre</span></div>
+                        <p>Over 60 students attended our roller skating event filled with adrenalined-fuelled games like roller skate hockey, and relay race.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2021/bowling-2021.jpeg" id="image" onload="loadImage()" alt="Bowling Night"/>
+                    <div class="description">
+                        <h3>Bowling Night</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> April 2021</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> The Lanes</span></div>
+                        <p>We organised a "bowling league" and randomised 40+ students from all over Wellington into teams and compete. We left no pin standing!</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2021/sports-day-2021-1.jpg" id="image" onload="loadImage()" alt="Sports Day"/>
+                    <div class="description">
+                        <h3>Sports Day</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> March 2021</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Wellington College</span></div>
+                        <p>After football matches, tug of war, and hot dogs for afternoon tea, the WISA 2021 election took place, where all candidates gave their speeches.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="events var-1 row">
+        <div class="description">
+            <div class="img">
+                <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/exec/wisa-exec-2020.jpg" id="image" onload="loadImage()" alt="WISA Executive team 2020"/>
+                <h5 class="img-description">Members of 2020 WISA committee delivering an Embassy Theatre gift card to Yujin Roh, the winner of the WISA logo design competition.</h5>
+            </div>
+            <div class="paragraph">
+                <h2>WISA 2020</h2>
+                <p>WISA started the year with a successful movie night that had a "full house" of international students attending, including one who travelled all the way from Whanganui!
+                   The second event was a shared picnic and laser force activity, followed by a Korean BBQ buffet held in the same week. In August, we had a bowling event that brought everyone together for a fun night out. 
+                   In October, we organized a sports day at Wellington College. The year ended with WISA teaming up with the Interact club for a quiz night fundraiser.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="events row">
+        <h2>2020 Events</h2>
+        <div class="events-container">
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2020/quiz-night-2020-1.jpg" id="image" onload="loadImage()" alt="Quiz Night"/>
+                    <div class="description">
+                        <h3>Quiz Night Fundraiser</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> October 2020</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Wellington College</span></div>
+                        <p>We collaborated with Interact Club for a night filled with trivia questions, pizza, and Ukelele performances to raise funds for a Vietnam charity.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2020/sports-day-2020-1.jpeg" id="image" onload="loadImage()" alt="Sports Day"/>
+                    <div class="description">
+                        <h3>Sports Day</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> October 2020</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Wellington College</span></div>
+                        <p>A sports day consists of hot dogs, tug of war, ball sports, the "eagle catches a chick" game, an esports smash tournament, and heaps of fun.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2020/bowling-2020.jpeg" id="image" onload="loadImage()" alt="Bowling Night"/>
+                    <div class="description">
+                        <h3>Bowling Night</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> August 2020</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> The Lanes</span></div>
+                        <p>From international to domestic students, amateur to pro bowlers, everyone has enjoyed a fun night out and met some new friends.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2020/kbbq-2020.png" id="image" onload="loadImage()" alt="Korean BBQ"/>
+                    <div class="description">
+                        <h3>KBBQ Night</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> July 2020</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Taste of Korea</span></div>
+                        <p>We organised a "bowling league" and randomised 40+ students from all over Wellington into teams and compete. We left no pin standing!</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2020/laserforce-2020.jpeg" id="image" onload="loadImage()" alt="Laserforce"/>
+                    <div class="description">
+                        <h3>Laser Force & Arcade</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> July 2020</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Wellington College</span></div>
+                        <p>With a price reduction from $20.00 to $15.00 per person, we had fun with the intense laser tag game and all the arcade classics.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2020/picnic-2020.jpg" id="image" onload="loadImage()" alt="Picnic"/>
+                    <div class="description">
+                        <h3>Shared Picnic</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> July 2020</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Waitangi Park</span></div>
+                        <p>We hosted a shared picnic with ice-breakers, ball sports, card games, and snacks for students to have fun while making new friends.</p>
+                    </div>  
+                </div>
+            </div>
+            <div>
+                <div class="item">
+                    <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/events/2020/movie-2020.jpg" id="image" onload="loadImage()" alt="Movie Night"/>
+                    <div class="description">
+                        <h3>Movie Night</h3>
+                        <div class="details date"><i class="fa-solid fa-calendar"></i><span> July 2020</span></div>
+                        <div class="details location"><i class="fa-solid fa-location-dot"></i><span> Penthouse Cinema, Brooklyn</span></div>
+                        <p>WISA's first official event! Pizza and other delicaicies were served, we then headed upstairs for Parasite, an Oscar-winning Korean movie.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="contact" class="main-content">
+            <div class="left box">
+                <h2>About Us</h2>
+                <div class="content">
+                    <p>Wellington International Students' Association (WISA) is the largest umbrella group that connects international students across high schools in the region. 
+                        We host numerous events to promote awareness of international culture to our diverse Wellington community, whilst assisting new students integrate into the cosmopolitan community. </p><br>
+                    <div class="social">
+                        <a href="https://www.instagram.com/wgtnisa/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/wgtnisa" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/wellington-international-students-association/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11988.981064701562!2d174.7820926!3d-41.3035277!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf188ad3b391f6e8c!2sWellington%20College!5e0!3m2!1sen!2snz!4v1677733457429!5m2!1sen!2snz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="place">
+                        <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                        <span class="text">15 Dufferin Street, Mount Victoria, Wellington</span>
+                    </div>
+                    <div class="place">
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                        <span class="text">wgtnisa@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="right box">
+                <h2>Contact Us</h2>
+                <div class="content">
+                    <form action="https://formsubmit.co/wgtnisa@gmail.com" method="POST">
+                        <div class="name">
+                            <div class="text">Full name *</div>
+                            <input type= "text" name="name" name="name" required>
+                        </div>
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type= "email" name="email" name="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message / Enquiry *</div>
+                            <textarea type="message" id="message" name="message" rows="6" cols="33" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      
+        <div class="bottom">
+            <center>
+                <span class="credit"><i class="far fa-copyright"></i> 2019-2023 WISA | Created By <a href="https://www.linkedin.com/in/jasmine-yip-b08b18205/" target="_blank">Jasmine Yip</a> @ YippieWeb </span>
+            </center>
+        </div>
+     </footer>
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+     <script src="script.js" defer></script>
+    </body>
+  </html>

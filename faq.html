@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="/assets/wisa-logo-text-trans.png">
+    <title>Wellington International Students' Association</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/10f9b17392.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+      </label>
+      <a href="index.html"><img class="logo" src="https://wisa-assets.s3.us-east-2.amazonaws.com/wisa-logo-text.png" alt="WISA Logo"></a>
+      <ul>
+          <li><a href="abous-us.html">About us</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a class="active" href="faq.html">FAQ</a></li>
+          <li><a href="news.html">News</a></li>
+      </ul>
+    </nav>
+
+    <div class="banner">
+        <img src="https://wisa-assets.s3.us-east-2.amazonaws.com/exec/wisa-exec-2020-1.jpg" id="image" onload="loadImage()" alt="WISA Executive team 2020"/>
+    </div>
+
+    <div class="faq intro row">
+        <h2>Frequently asked questions</h2>
+        <div class="description">
+            <div class="accordion">
+                <button type="button" class="accordion__button first">How can I receive first-hand notifications of WISA's events?</button>
+                <div class="accordion__content">
+                    <p>1. Become a member of WISA by completing this <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0dmReO-8jk7WkJkHpn2BMgs3ogVRfosdEeKO075XtkT9kTw/viewform?usp=sf_link" target="_blank">Google form</a>. By doing so, you will automatically be added to our mailing list 
+                        and receive timely information about our upcoming events and programs. <br>
+                        2. Follow us on <a href="https://www.instagram.com/wgtnisa/" target="_blank">Instagram</a>!</p>
+                </div>
+
+                <button type="button" class="accordion__button">How are donations to your non-profit used to support international students?</button>
+                <div class="accordion__content">
+                    <p>Donations to our non-profit are used to support a variety of programmes, including mentorship programmes, cultural immersion activities,
+                        orientation activities, and networking events. Your donation makes it possible for us bring ideas to life and make an impact. If you would like to make a donation,
+                        please visit this link. Your support at any level is greatly appreciated.</p>
+                </div>
+
+                <button type="button" class="accordion__button">How can I apply to be a part of the WISA Executive team?</button>
+                <div class="accordion__content">
+                    <p>Nomination, followed by an election, takes place around November-December each year. Further information will be 
+                        provided through our website and social media platforms when the time comes.</p>
+                </div>
+
+                <button type="button" class="accordion__button">What are the eligibility requirements for running for a position?</button>
+                <div class="accordion__content">
+                    <p>To be eligible for a position, you must be a Year 11, 12, or 13 student enrolled in a high school in Wellington.
+                        Domestic and international students are both encouraged to apply for a position.</p>
+                </div>
+
+                <button type="button" class="accordion__button">Can I volunteer at WISA's events?</button>
+                <div class="accordion__content">
+                    <p>Certainly! We are continually seeking volunteers of all kinds, especially photographers. Additionally, we require assistants 
+                        for our major events. Please contact us if you are interested!</p>
+                </div>
+
+                <button type="button" class="accordion__button">Do I have to be an international student to join WISA's events?</button>
+                <div class="accordion__content">
+                    <p>Absolutely not! We welcome both international and domestic studuents to participate in our events.
+                        In fact, we have had a huge number of domestic students at our previous events, so you won't be the only one!</p>
+                </div>
+
+                <button type="button" class="accordion__button">If I changed my mind about going to an event, can I get a refund?</button>
+                <div class="accordion__content">
+                    <p>In most cases yes, contact us via Instagram and let us know your name. We will make a refund to your bank account 
+                        as soon as possible.</p>
+                </div>
+
+                <button type="button" class="accordion__button">How can I contact WISA regarding partnerships?</button>
+                <div class="accordion__content">
+                    <p>Thank you for your interest! You can reach out to us through the contact form provided below, email (wgtnisa@gmail.com), or <a href="https://www.instagram.com/wgtnisa/" target="_blank">Instagram</a>, 
+                        and we will respond as soon as possible. If you previously contacted us through the contact form and did not receive a response, we sincerely apologize for any inconvenience caused. 
+                        There was a technical issue which has been resolved now. Please do not hesitate to contact us again.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="contact" class="main-content">
+            <div class="left box">
+                <h2>About Us</h2>
+                <div class="content">
+                    <p>Wellington International Students' Association (WISA) is the largest umbrella group that connects international students across high schools in the region. 
+                        We host numerous events to promote awareness of international culture to our diverse Wellington community, whilst assisting new students integrate into the cosmopolitan community. </p><br>
+                    <div class="social">
+                        <a href="https://www.instagram.com/wgtnisa/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/wgtnisa" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/wellington-international-students-association/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11988.981064701562!2d174.7820926!3d-41.3035277!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf188ad3b391f6e8c!2sWellington%20College!5e0!3m2!1sen!2snz!4v1677733457429!5m2!1sen!2snz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="place">
+                        <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                        <span class="text">15 Dufferin Street, Mount Victoria, Wellington</span>
+                    </div>
+                    <div class="place">
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                        <span class="text">wgtnisa@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="right box">
+                <h2>Contact Us</h2>
+                <div class="content">
+                    <form action="https://formsubmit.co/wgtnisa@gmail.com" method="POST">
+                        <div class="name">
+                            <div class="text">Full name *</div>
+                            <input type= "text" name="name" name="name" required>
+                        </div>
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type= "email" name="email" name="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message / Enquiry *</div>
+                            <textarea type="message" id="message" name="message" rows="6" cols="33" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      
+        <div class="bottom">
+            <center>
+                <span class="credit"><i class="far fa-copyright"></i> 2019-2023 WISA | Created By <a href="https://www.linkedin.com/in/jasmine-yip-b08b18205/" target="_blank">Jasmine Yip</a> @ YippieWeb </span>
+            </center>
+        </div>
+     </footer>
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+     <script src="script.js"></script>
+    </body>
+  </html>
